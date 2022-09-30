@@ -1,0 +1,11 @@
+{
+    "roblox_bot_token": "Roblox account token here",
+    "discord_bot_token": "Discord bot token here",
+
+    "groupSales": {
+        "group_Id": 123456789,
+        "discord_channel_id": "DISCORD CHANNEL ID HERE" 
+    }
+
+}
+

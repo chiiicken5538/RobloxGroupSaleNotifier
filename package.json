@@ -1,0 +1,15 @@
+{
+  "name": "husmansgroupsalenotifier",
+  "version": "1.0.0",
+  "description": "Roblox groupsale notifier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chiiicken 3436",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.5.0",
+    "noblox.js": "^4.13.1"
+  }
+}
