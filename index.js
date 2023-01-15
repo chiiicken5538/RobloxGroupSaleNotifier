@@ -6,7 +6,6 @@ const config = require("./config.json")
  
 async function startApp () {
     const currentUser = await noblox.setCookie(config.roblox_bot_token) 
-    console.log(`Logged in as ${currentUser.UserName} [${currentUser.UserID}]`)
 
     const transactionEvent = noblox.onGroupTransaction(config.groupSales.group_Id, "Sale")
 
@@ -33,6 +32,8 @@ async function startApp () {
      console.error("Timed out...")
     })
 
+    console.log(`Logged in as ${currentUser.UserName} [${currentUser.UserID}]`)
+ 
     client.on('ready', async () => {
         console.log("Logged in as " + client.user.tag);
     });
