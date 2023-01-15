@@ -30,7 +30,7 @@ async function startApp () {
     })
 
     transactionEvent.on("error", function(err) {
-     console.error("Something went wrong.. (prob. a roblox api timeout error)")
+     console.error("Timed out...")
     })
 
     client.on('ready', async () => {
